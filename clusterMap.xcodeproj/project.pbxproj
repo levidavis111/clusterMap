@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193CBD6DE3B065A5BC637368 /* Pods_clusterMap_clusterMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5819AEF33B10C85A109965E1 /* Pods_clusterMap_clusterMapUITests.framework */; };
+		FB3C26C1D54E30C66DB296F1 /* Pods_clusterMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC4A0AFA086C90E8E5AFA58 /* Pods_clusterMap.framework */; };
+		FBAD97702DFAD593B8A225E0 /* Pods_clusterMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8FFE3FB0AA5287A8FB78F0 /* Pods_clusterMapTests.framework */; };
 		FC501862258D0D1200ECF406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501861258D0D1200ECF406 /* AppDelegate.swift */; };
 		FC501864258D0D1200ECF406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501863258D0D1200ECF406 /* SceneDelegate.swift */; };
 		FC501866258D0D1200ECF406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501865258D0D1200ECF406 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		FC50186E258D0D1900ECF406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC50186C258D0D1900ECF406 /* LaunchScreen.storyboard */; };
 		FC501879258D0D1900ECF406 /* clusterMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501878258D0D1900ECF406 /* clusterMapTests.swift */; };
 		FC501884258D0D1900ECF406 /* clusterMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501883258D0D1900ECF406 /* clusterMapUITests.swift */; };
+		FC501896258D0F2F00ECF406 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501895258D0F2F00ECF406 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8FFE3FB0AA5287A8FB78F0 /* Pods_clusterMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clusterMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC4A0AFA086C90E8E5AFA58 /* Pods_clusterMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clusterMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		279A0EA68C388F3D214C407E /* Pods-clusterMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clusterMapTests.release.xcconfig"; path = "Target Support Files/Pods-clusterMapTests/Pods-clusterMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		33E97DA02378BE8399BF7606 /* Pods-clusterMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clusterMap.debug.xcconfig"; path = "Target Support Files/Pods-clusterMap/Pods-clusterMap.debug.xcconfig"; sourceTree = "<group>"; };
+		56DFB4197A77F9CAD5F898B0 /* Pods-clusterMap-clusterMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clusterMap-clusterMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5819AEF33B10C85A109965E1 /* Pods_clusterMap_clusterMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clusterMap_clusterMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D8FA59A4E582B63D88EEFD /* Pods-clusterMap-clusterMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clusterMap-clusterMapUITests.release.xcconfig"; path = "Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E15858169B1B0DBD19A83BF /* Pods-clusterMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clusterMap.release.xcconfig"; path = "Target Support Files/Pods-clusterMap/Pods-clusterMap.release.xcconfig"; sourceTree = "<group>"; };
+		EEA4AEAEDDCC2C3728906194 /* Pods-clusterMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clusterMapTests.debug.xcconfig"; path = "Target Support Files/Pods-clusterMapTests/Pods-clusterMapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC50185E258D0D1200ECF406 /* clusterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clusterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC501861258D0D1200ECF406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC501863258D0D1200ECF406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		FC50187F258D0D1900ECF406 /* clusterMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clusterMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC501883258D0D1900ECF406 /* clusterMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clusterMapUITests.swift; sourceTree = "<group>"; };
 		FC501885258D0D1900ECF406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC501895258D0F2F00ECF406 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3C26C1D54E30C66DB296F1 /* Pods_clusterMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAD97702DFAD593B8A225E0 /* Pods_clusterMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193CBD6DE3B065A5BC637368 /* Pods_clusterMap_clusterMapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2105947219E98F47D255F1EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33E97DA02378BE8399BF7606 /* Pods-clusterMap.debug.xcconfig */,
+				9E15858169B1B0DBD19A83BF /* Pods-clusterMap.release.xcconfig */,
+				56DFB4197A77F9CAD5F898B0 /* Pods-clusterMap-clusterMapUITests.debug.xcconfig */,
+				62D8FA59A4E582B63D88EEFD /* Pods-clusterMap-clusterMapUITests.release.xcconfig */,
+				EEA4AEAEDDCC2C3728906194 /* Pods-clusterMapTests.debug.xcconfig */,
+				279A0EA68C388F3D214C407E /* Pods-clusterMapTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		764932D2439AB188B36F50A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4A0AFA086C90E8E5AFA58 /* Pods_clusterMap.framework */,
+				5819AEF33B10C85A109965E1 /* Pods_clusterMap_clusterMapUITests.framework */,
+				0C8FFE3FB0AA5287A8FB78F0 /* Pods_clusterMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC501855258D0D1200ECF406 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				FC501877258D0D1900ECF406 /* clusterMapTests */,
 				FC501882258D0D1900ECF406 /* clusterMapUITests */,
 				FC50185F258D0D1200ECF406 /* Products */,
+				2105947219E98F47D255F1EC /* Pods */,
+				764932D2439AB188B36F50A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +145,7 @@
 				FC501861258D0D1200ECF406 /* AppDelegate.swift */,
 				FC501863258D0D1200ECF406 /* SceneDelegate.swift */,
 				FC501865258D0D1200ECF406 /* ViewController.swift */,
+				FC501894258D0F1000ECF406 /* Secret */,
 				FC501867258D0D1200ECF406 /* Main.storyboard */,
 				FC50186A258D0D1900ECF406 /* Assets.xcassets */,
 				FC50186C258D0D1900ECF406 /* LaunchScreen.storyboard */,
@@ -128,6 +172,14 @@
 			path = clusterMapUITests;
 			sourceTree = "<group>";
 		};
+		FC501894258D0F1000ECF406 /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				FC501895258D0F2F00ECF406 /* Secret.swift */,
+			);
+			path = Secret;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC501888258D0D1900ECF406 /* Build configuration list for PBXNativeTarget "clusterMap" */;
 			buildPhases = (
+				BBE6F4869EA7E6F3A7C1153C /* [CP] Check Pods Manifest.lock */,
 				FC50185A258D0D1200ECF406 /* Sources */,
 				FC50185B258D0D1200ECF406 /* Frameworks */,
 				FC50185C258D0D1200ECF406 /* Resources */,
+				0611AAD18E4979DFF0232D46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC50188B258D0D1900ECF406 /* Build configuration list for PBXNativeTarget "clusterMapTests" */;
 			buildPhases = (
+				20ACB31AB52142132CF0F34A /* [CP] Check Pods Manifest.lock */,
 				FC501870258D0D1900ECF406 /* Sources */,
 				FC501871258D0D1900ECF406 /* Frameworks */,
 				FC501872258D0D1900ECF406 /* Resources */,
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC50188E258D0D1900ECF406 /* Build configuration list for PBXNativeTarget "clusterMapUITests" */;
 			buildPhases = (
+				D84A8645DB420131B5D3F629 /* [CP] Check Pods Manifest.lock */,
 				FC50187B258D0D1900ECF406 /* Sources */,
 				FC50187C258D0D1900ECF406 /* Frameworks */,
 				FC50187D258D0D1900ECF406 /* Resources */,
+				B2A43DE6A7C85DB8DD4884F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +310,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0611AAD18E4979DFF0232D46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clusterMap/Pods-clusterMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clusterMap/Pods-clusterMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-clusterMap/Pods-clusterMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20ACB31AB52142132CF0F34A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clusterMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A43DE6A7C85DB8DD4884F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE6F4869EA7E6F3A7C1153C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clusterMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84A8645DB420131B5D3F629 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clusterMap-clusterMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC50185A258D0D1200ECF406 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FC501866258D0D1200ECF406 /* ViewController.swift in Sources */,
+				FC501896258D0F2F00ECF406 /* Secret.swift in Sources */,
 				FC501862258D0D1200ECF406 /* AppDelegate.swift in Sources */,
 				FC501864258D0D1200ECF406 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +594,7 @@
 		};
 		FC501889258D0D1900ECF406 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E97DA02378BE8399BF7606 /* Pods-clusterMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +613,7 @@
 		};
 		FC50188A258D0D1900ECF406 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E15858169B1B0DBD19A83BF /* Pods-clusterMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +632,7 @@
 		};
 		FC50188C258D0D1900ECF406 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA4AEAEDDCC2C3728906194 /* Pods-clusterMapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +654,7 @@
 		};
 		FC50188D258D0D1900ECF406 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279A0EA68C388F3D214C407E /* Pods-clusterMapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +676,7 @@
 		};
 		FC50188F258D0D1900ECF406 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DFB4197A77F9CAD5F898B0 /* Pods-clusterMap-clusterMapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +696,7 @@
 		};
 		FC501890258D0D1900ECF406 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D8FA59A4E582B63D88EEFD /* Pods-clusterMap-clusterMapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

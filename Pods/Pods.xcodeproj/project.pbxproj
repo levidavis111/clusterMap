@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9CCC81AFD77D08250FEA536F766CA118 /* Build configuration list for PBXAggregateTarget "Mapbox-iOS-SDK" */;
+			buildPhases = (
+				490D4B427F1E2219A5AC752FB7BD5C41 /* [CP] Copy dSYMs */,
+			);
+			dependencies = (
+			);
+			name = "Mapbox-iOS-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2FC6EC32650C899DF4089E251185E224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		58D6FDF46C4F13116AAE5E050D521330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7313D427556B67AF978B8F6C74868932 /* Pods-clusterMap-clusterMapUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C04ECF810B819CB018B5B1D2EA02BC /* Pods-clusterMap-clusterMapUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F1F4A4291166BB66E0E78F155ACF2E9 /* Pods-clusterMapTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC25C58941949EE5DA4FF9EC6FA97165 /* Pods-clusterMapTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1D69DA21522D669E51D411B5141CC6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CD83C30E793133D00E4BBE8A6289601C /* Pods-clusterMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F262690D5E636630AC978A8833AA1CD /* Pods-clusterMap-dummy.m */; };
+		EF07BD5E8F694EF0D6B11F4964153E39 /* Pods-clusterMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D09253F2FC1087D90702931108C3CC88 /* Pods-clusterMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADF502CDB8A49585B872422E7C54E72 /* Pods-clusterMapTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5B53BEA81BD2B4371A6BA7D686CFB2 /* Pods-clusterMapTests-dummy.m */; };
+		FF1420C852B6D97FC053843BBD0F6EC8 /* Pods-clusterMap-clusterMapUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5916BBCBA3D6A59FE121FD28D27A5E48 /* Pods-clusterMap-clusterMapUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		139F85BCD6E06A936E6C7485CEAD5118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6746AB6F4D992402B59D1651512EA19E;
+			remoteInfo = "Mapbox-iOS-SDK";
+		};
+		1CDC79929A45C4CC73566F7BCE39D250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6746AB6F4D992402B59D1651512EA19E;
+			remoteInfo = "Mapbox-iOS-SDK";
+		};
+		8A017BA9573AA353181969ADF997AB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E364D4C8A2C7D9B4A48AB192C5944F4C;
+			remoteInfo = "Pods-clusterMap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099380F72D64750AAD77D0E08656BFA2 /* Pods-clusterMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clusterMap.debug.xcconfig"; sourceTree = "<group>"; };
+		143033516C5307B1693C66EB8550FE48 /* Mapbox-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mapbox-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		166F756F4BC631FCEF01D2ED4F0C77A3 /* Pods-clusterMap-clusterMapUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clusterMap-clusterMapUITests-Info.plist"; sourceTree = "<group>"; };
+		1D91B5C61D6960CFA1F91B6E324C8136 /* Pods-clusterMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-clusterMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E78C9917E15568A40AD2467CEA140A3 /* Mapbox-iOS-SDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Mapbox-iOS-SDK-copy-dsyms.sh"; sourceTree = "<group>"; };
+		210A5BCBDA8B97BC77E88F666CDB39F4 /* Pods-clusterMap-clusterMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clusterMap-clusterMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2193D9341EBAE3A78FD20F0E0D258056 /* Pods_clusterMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_clusterMapTests.framework; path = "Pods-clusterMapTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB92C70233F2912E08F1FE3510A23D1 /* Pods-clusterMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clusterMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		33FC1AB4086E16BEF483B5A480D3769D /* Pods-clusterMapTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-clusterMapTests.modulemap"; sourceTree = "<group>"; };
+		39E4F5845500DA301C2A02E855A71E9D /* Pods-clusterMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clusterMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F262690D5E636630AC978A8833AA1CD /* Pods-clusterMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-clusterMap-dummy.m"; sourceTree = "<group>"; };
+		549338821296153ED31B163EE9E44EE5 /* Pods-clusterMap-clusterMapUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-clusterMap-clusterMapUITests.modulemap"; sourceTree = "<group>"; };
+		5916BBCBA3D6A59FE121FD28D27A5E48 /* Pods-clusterMap-clusterMapUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-clusterMap-clusterMapUITests-dummy.m"; sourceTree = "<group>"; };
+		59B64642D35424C3B9955DF4B1B24F5B /* Pods-clusterMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clusterMap.release.xcconfig"; sourceTree = "<group>"; };
+		660EFEF3FB714A4A284883B5AB08DFC8 /* Pods-clusterMap-clusterMapUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-clusterMap-clusterMapUITests-frameworks.sh"; sourceTree = "<group>"; };
+		66443E5DE00085E25D35770111947888 /* Pods-clusterMap-clusterMapUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-clusterMap-clusterMapUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E99418F6627714ABB40906F84CFD4F7 /* Pods-clusterMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clusterMap-Info.plist"; sourceTree = "<group>"; };
+		6EC44B8072CFBB111048AD7733044E39 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D5B53BEA81BD2B4371A6BA7D686CFB2 /* Pods-clusterMapTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-clusterMapTests-dummy.m"; sourceTree = "<group>"; };
+		8B7E556472ED660EAD3FDF3C8A2F9043 /* Pods-clusterMapTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-clusterMapTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BFAFF3614F78BDCAF53BF1A4CD96898 /* Pods-clusterMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-clusterMap.modulemap"; sourceTree = "<group>"; };
+		9C7FDC6DB50FEEA6EE44939B1748D2BA /* Pods-clusterMap-clusterMapUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clusterMap-clusterMapUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E74CC5D045D3A65BFC9DABDA9B83CB6 /* Pods-clusterMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-clusterMap-frameworks.sh"; sourceTree = "<group>"; };
+		B96C54137E08EC610A220C61C4F0AC0A /* Mapbox-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mapbox-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		BA1F9F6729ED1074EBE354D24BB1C999 /* Pods-clusterMap-clusterMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clusterMap-clusterMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA73F9FAD530A2DE79FA7581B001C34B /* Pods-clusterMapTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clusterMapTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC25C58941949EE5DA4FF9EC6FA97165 /* Pods-clusterMapTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-clusterMapTests-umbrella.h"; sourceTree = "<group>"; };
+		D09253F2FC1087D90702931108C3CC88 /* Pods-clusterMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-clusterMap-umbrella.h"; sourceTree = "<group>"; };
+		D0D723711DE4B3EE709A47DEC23195D7 /* Pods-clusterMapTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clusterMapTests-Info.plist"; sourceTree = "<group>"; };
+		E1C04ECF810B819CB018B5B1D2EA02BC /* Pods-clusterMap-clusterMapUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-clusterMap-clusterMapUITests-umbrella.h"; sourceTree = "<group>"; };
+		EBA78DD49E659E3E3C18FAC692702EED /* Pods_clusterMap_clusterMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_clusterMap_clusterMapUITests.framework; path = "Pods-clusterMap-clusterMapUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB2D39539ABF19B68062F371CA1D0E0 /* Pods-clusterMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clusterMap-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB73D4696E23393739BCCEFD1415022D /* Pods_clusterMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_clusterMap.framework; path = "Pods-clusterMap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABECC8C1A1B558C1AE553515B3C2AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D6FDF46C4F13116AAE5E050D521330 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6EB720393D04B25A431729B166E516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC6EC32650C899DF4089E251185E224 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA162342BAA920B6D692972EFC040C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D69DA21522D669E51D411B5141CC6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A05A015E6E4B04C5BD409C43552E5E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF5E7D8DE3523A65A4780D19641146DC /* Pods-clusterMap */,
+				C75F6E32D5856BEF8FEE541C91DF03CE /* Pods-clusterMap-clusterMapUITests */,
+				FD8FE0A15D5DDF83FE6910E85AAB60FE /* Pods-clusterMapTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		23C57576DAA07F342360E69E737CF580 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C767D74583CF055F0F34E35D27841 /* Mapbox-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6364DB5F2EAEF658C943D49F2EC0B4DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E78C9917E15568A40AD2467CEA140A3 /* Mapbox-iOS-SDK-copy-dsyms.sh */,
+				143033516C5307B1693C66EB8550FE48 /* Mapbox-iOS-SDK.debug.xcconfig */,
+				B96C54137E08EC610A220C61C4F0AC0A /* Mapbox-iOS-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		8A38057E4A246DBB208DB9DCD2069DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB73D4696E23393739BCCEFD1415022D /* Pods_clusterMap.framework */,
+				EBA78DD49E659E3E3C18FAC692702EED /* Pods_clusterMap_clusterMapUITests.framework */,
+				2193D9341EBAE3A78FD20F0E0D258056 /* Pods_clusterMapTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75F6E32D5856BEF8FEE541C91DF03CE /* Pods-clusterMap-clusterMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				549338821296153ED31B163EE9E44EE5 /* Pods-clusterMap-clusterMapUITests.modulemap */,
+				66443E5DE00085E25D35770111947888 /* Pods-clusterMap-clusterMapUITests-acknowledgements.markdown */,
+				9C7FDC6DB50FEEA6EE44939B1748D2BA /* Pods-clusterMap-clusterMapUITests-acknowledgements.plist */,
+				5916BBCBA3D6A59FE121FD28D27A5E48 /* Pods-clusterMap-clusterMapUITests-dummy.m */,
+				660EFEF3FB714A4A284883B5AB08DFC8 /* Pods-clusterMap-clusterMapUITests-frameworks.sh */,
+				166F756F4BC631FCEF01D2ED4F0C77A3 /* Pods-clusterMap-clusterMapUITests-Info.plist */,
+				E1C04ECF810B819CB018B5B1D2EA02BC /* Pods-clusterMap-clusterMapUITests-umbrella.h */,
+				BA1F9F6729ED1074EBE354D24BB1C999 /* Pods-clusterMap-clusterMapUITests.debug.xcconfig */,
+				210A5BCBDA8B97BC77E88F666CDB39F4 /* Pods-clusterMap-clusterMapUITests.release.xcconfig */,
+			);
+			name = "Pods-clusterMap-clusterMapUITests";
+			path = "Target Support Files/Pods-clusterMap-clusterMapUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				23C57576DAA07F342360E69E737CF580 /* Pods */,
+				8A38057E4A246DBB208DB9DCD2069DD4 /* Products */,
+				12A05A015E6E4B04C5BD409C43552E5E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE3C767D74583CF055F0F34E35D27841 /* Mapbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC0AF9F20B0E42B15E9118C1E65D4D /* Frameworks */,
+				6364DB5F2EAEF658C943D49F2EC0B4DF /* Support Files */,
+			);
+			name = "Mapbox-iOS-SDK";
+			path = "Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		DF5E7D8DE3523A65A4780D19641146DC /* Pods-clusterMap */ = {
+			isa = PBXGroup;
+			children = (
+				9BFAFF3614F78BDCAF53BF1A4CD96898 /* Pods-clusterMap.modulemap */,
+				1D91B5C61D6960CFA1F91B6E324C8136 /* Pods-clusterMap-acknowledgements.markdown */,
+				EFB2D39539ABF19B68062F371CA1D0E0 /* Pods-clusterMap-acknowledgements.plist */,
+				4F262690D5E636630AC978A8833AA1CD /* Pods-clusterMap-dummy.m */,
+				9E74CC5D045D3A65BFC9DABDA9B83CB6 /* Pods-clusterMap-frameworks.sh */,
+				6E99418F6627714ABB40906F84CFD4F7 /* Pods-clusterMap-Info.plist */,
+				D09253F2FC1087D90702931108C3CC88 /* Pods-clusterMap-umbrella.h */,
+				099380F72D64750AAD77D0E08656BFA2 /* Pods-clusterMap.debug.xcconfig */,
+				59B64642D35424C3B9955DF4B1B24F5B /* Pods-clusterMap.release.xcconfig */,
+			);
+			name = "Pods-clusterMap";
+			path = "Target Support Files/Pods-clusterMap";
+			sourceTree = "<group>";
+		};
+		FD8FE0A15D5DDF83FE6910E85AAB60FE /* Pods-clusterMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				33FC1AB4086E16BEF483B5A480D3769D /* Pods-clusterMapTests.modulemap */,
+				8B7E556472ED660EAD3FDF3C8A2F9043 /* Pods-clusterMapTests-acknowledgements.markdown */,
+				BA73F9FAD530A2DE79FA7581B001C34B /* Pods-clusterMapTests-acknowledgements.plist */,
+				7D5B53BEA81BD2B4371A6BA7D686CFB2 /* Pods-clusterMapTests-dummy.m */,
+				D0D723711DE4B3EE709A47DEC23195D7 /* Pods-clusterMapTests-Info.plist */,
+				CC25C58941949EE5DA4FF9EC6FA97165 /* Pods-clusterMapTests-umbrella.h */,
+				39E4F5845500DA301C2A02E855A71E9D /* Pods-clusterMapTests.debug.xcconfig */,
+				2FB92C70233F2912E08F1FE3510A23D1 /* Pods-clusterMapTests.release.xcconfig */,
+			);
+			name = "Pods-clusterMapTests";
+			path = "Target Support Files/Pods-clusterMapTests";
+			sourceTree = "<group>";
+		};
+		FEEC0AF9F20B0E42B15E9118C1E65D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EC44B8072CFBB111048AD7733044E39 /* Mapbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		040716E1287AE410733D5E61EE504D1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1F4A4291166BB66E0E78F155ACF2E9 /* Pods-clusterMapTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A00838D2C162A6C46F6617C0CC68032 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313D427556B67AF978B8F6C74868932 /* Pods-clusterMap-clusterMapUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8C703E5F7D2E6D001148D72E898162 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF07BD5E8F694EF0D6B11F4964153E39 /* Pods-clusterMap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4282337E08391F13BE9FF951FA3E2ECF /* Pods-clusterMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2643AB112364AAA18E770AD925E8B2CA /* Build configuration list for PBXNativeTarget "Pods-clusterMapTests" */;
+			buildPhases = (
+				040716E1287AE410733D5E61EE504D1B /* Headers */,
+				8A682043C5504637C9FA08F8F046510A /* Sources */,
+				6ABECC8C1A1B558C1AE553515B3C2AE9 /* Frameworks */,
+				D25A227F8AC5032D419F65770FCB2F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D419F5B80B50992C93275958C569160 /* PBXTargetDependency */,
+			);
+			name = "Pods-clusterMapTests";
+			productName = "Pods-clusterMapTests";
+			productReference = 2193D9341EBAE3A78FD20F0E0D258056 /* Pods_clusterMapTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4F46B7B45E0CAC63EE0CD71B89A7527 /* Pods-clusterMap-clusterMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D975D990229910C932E17855F3AE4CC /* Build configuration list for PBXNativeTarget "Pods-clusterMap-clusterMapUITests" */;
+			buildPhases = (
+				6A00838D2C162A6C46F6617C0CC68032 /* Headers */,
+				284AC740B7CB4E7B37154E19947CE5D8 /* Sources */,
+				6C6EB720393D04B25A431729B166E516 /* Frameworks */,
+				CA0568E4BA3F2C1BFACF6915CCDF2F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD11469BEA80FEB534EFE687C5193214 /* PBXTargetDependency */,
+			);
+			name = "Pods-clusterMap-clusterMapUITests";
+			productName = "Pods-clusterMap-clusterMapUITests";
+			productReference = EBA78DD49E659E3E3C18FAC692702EED /* Pods_clusterMap_clusterMapUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E364D4C8A2C7D9B4A48AB192C5944F4C /* Pods-clusterMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA1F1018FD965E9D882F554B837AF06 /* Build configuration list for PBXNativeTarget "Pods-clusterMap" */;
+			buildPhases = (
+				BE8C703E5F7D2E6D001148D72E898162 /* Headers */,
+				50778853399F7C174FCFB440B5ED0E3E /* Sources */,
+				CA162342BAA920B6D692972EFC040C99 /* Frameworks */,
+				E8E3ECFC184E0EDF2649DF70DE97CCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84727FAC050ADAA0CA5C055A7ECDA7BB /* PBXTargetDependency */,
+			);
+			name = "Pods-clusterMap";
+			productName = "Pods-clusterMap";
+			productReference = FB73D4696E23393739BCCEFD1415022D /* Pods_clusterMap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8A38057E4A246DBB208DB9DCD2069DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */,
+				E364D4C8A2C7D9B4A48AB192C5944F4C /* Pods-clusterMap */,
+				A4F46B7B45E0CAC63EE0CD71B89A7527 /* Pods-clusterMap-clusterMapUITests */,
+				4282337E08391F13BE9FF951FA3E2ECF /* Pods-clusterMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0568E4BA3F2C1BFACF6915CCDF2F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25A227F8AC5032D419F65770FCB2F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E3ECFC184E0EDF2649DF70DE97CCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		490D4B427F1E2219A5AC752FB7BD5C41 /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Mapbox-iOS-SDK/Mapbox-iOS-SDK-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Mapbox-iOS-SDK/Mapbox-iOS-SDK-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Mapbox-iOS-SDK/Mapbox-iOS-SDK-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284AC740B7CB4E7B37154E19947CE5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1420C852B6D97FC053843BBD0F6EC8 /* Pods-clusterMap-clusterMapUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50778853399F7C174FCFB440B5ED0E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD83C30E793133D00E4BBE8A6289601C /* Pods-clusterMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A682043C5504637C9FA08F8F046510A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF502CDB8A49585B872422E7C54E72 /* Pods-clusterMapTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D419F5B80B50992C93275958C569160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-clusterMap";
+			target = E364D4C8A2C7D9B4A48AB192C5944F4C /* Pods-clusterMap */;
+			targetProxy = 8A017BA9573AA353181969ADF997AB18 /* PBXContainerItemProxy */;
+		};
+		84727FAC050ADAA0CA5C055A7ECDA7BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mapbox-iOS-SDK";
+			target = 6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */;
+			targetProxy = 1CDC79929A45C4CC73566F7BCE39D250 /* PBXContainerItemProxy */;
+		};
+		AD11469BEA80FEB534EFE687C5193214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mapbox-iOS-SDK";
+			target = 6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */;
+			targetProxy = 139F85BCD6E06A936E6C7485CEAD5118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CD97EAB6F23CB7FD60E858D790DF1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB92C70233F2912E08F1FE3510A23D1 /* Pods-clusterMapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-clusterMapTests/Pods-clusterMapTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-clusterMapTests/Pods-clusterMapTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		179ED569C81F13753C61F1F8B6F374D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E4F5845500DA301C2A02E855A71E9D /* Pods-clusterMapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-clusterMapTests/Pods-clusterMapTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-clusterMapTests/Pods-clusterMapTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43F92D9BDB64206F75AE259C7224AF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96C54137E08EC610A220C61C4F0AC0A /* Mapbox-iOS-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6251990FADBBDBA07366D83113D7DD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099380F72D64750AAD77D0E08656BFA2 /* Pods-clusterMap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-clusterMap/Pods-clusterMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-clusterMap/Pods-clusterMap.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67B3DC89602E2AA0BB2FECDBE4181A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210A5BCBDA8B97BC77E88F666CDB39F4 /* Pods-clusterMap-clusterMapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8F32160A392B7E6C7F5C0C9838DC414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143033516C5307B1693C66EB8550FE48 /* Mapbox-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2A8DADE1F6A6F58BBCA885FA6888BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B64642D35424C3B9955DF4B1B24F5B /* Pods-clusterMap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-clusterMap/Pods-clusterMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-clusterMap/Pods-clusterMap.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D062B71F02A9AF5C4D104123FE310507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1F9F6729ED1074EBE354D24BB1C999 /* Pods-clusterMap-clusterMapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-clusterMap-clusterMapUITests/Pods-clusterMap-clusterMapUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D975D990229910C932E17855F3AE4CC /* Build configuration list for PBXNativeTarget "Pods-clusterMap-clusterMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D062B71F02A9AF5C4D104123FE310507 /* Debug */,
+				67B3DC89602E2AA0BB2FECDBE4181A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2643AB112364AAA18E770AD925E8B2CA /* Build configuration list for PBXNativeTarget "Pods-clusterMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179ED569C81F13753C61F1F8B6F374D5 /* Debug */,
+				0CD97EAB6F23CB7FD60E858D790DF1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA1F1018FD965E9D882F554B837AF06 /* Build configuration list for PBXNativeTarget "Pods-clusterMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6251990FADBBDBA07366D83113D7DD2E /* Debug */,
+				C2A8DADE1F6A6F58BBCA885FA6888BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CCC81AFD77D08250FEA536F766CA118 /* Build configuration list for PBXAggregateTarget "Mapbox-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F32160A392B7E6C7F5C0C9838DC414 /* Debug */,
+				43F92D9BDB64206F75AE259C7224AF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
