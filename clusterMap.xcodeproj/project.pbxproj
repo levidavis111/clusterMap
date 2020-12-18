@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,8 @@
 		FC501879258D0D1900ECF406 /* clusterMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501878258D0D1900ECF406 /* clusterMapTests.swift */; };
 		FC501884258D0D1900ECF406 /* clusterMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501883258D0D1900ECF406 /* clusterMapUITests.swift */; };
 		FC501896258D0F2F00ECF406 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC501895258D0F2F00ECF406 /* Secret.swift */; };
+		FC5018A5258D30D500ECF406 /* MapAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5018A4258D30D500ECF406 /* MapAPIManager.swift */; };
+		FC5018AA258D312F00ECF406 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5018A9258D312F00ECF406 /* Venue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		FC501883258D0D1900ECF406 /* clusterMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clusterMapUITests.swift; sourceTree = "<group>"; };
 		FC501885258D0D1900ECF406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC501895258D0F2F00ECF406 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		FC5018A4258D30D500ECF406 /* MapAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAPIManager.swift; sourceTree = "<group>"; };
+		FC5018A9258D312F00ECF406 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,6 @@
 				EEA4AEAEDDCC2C3728906194 /* Pods-clusterMapTests.debug.xcconfig */,
 				279A0EA68C388F3D214C407E /* Pods-clusterMapTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +148,8 @@
 				FC501861258D0D1200ECF406 /* AppDelegate.swift */,
 				FC501863258D0D1200ECF406 /* SceneDelegate.swift */,
 				FC501865258D0D1200ECF406 /* ViewController.swift */,
+				FC5018A4258D30D500ECF406 /* MapAPIManager.swift */,
+				FC5018A9258D312F00ECF406 /* Venue.swift */,
 				FC501894258D0F1000ECF406 /* Secret */,
 				FC501867258D0D1200ECF406 /* Main.storyboard */,
 				FC50186A258D0D1900ECF406 /* Assets.xcassets */,
@@ -419,6 +424,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC501866258D0D1200ECF406 /* ViewController.swift in Sources */,
+				FC5018AA258D312F00ECF406 /* Venue.swift in Sources */,
+				FC5018A5258D30D500ECF406 /* MapAPIManager.swift in Sources */,
 				FC501896258D0F2F00ECF406 /* Secret.swift in Sources */,
 				FC501862258D0D1200ECF406 /* AppDelegate.swift in Sources */,
 				FC501864258D0D1200ECF406 /* SceneDelegate.swift in Sources */,
