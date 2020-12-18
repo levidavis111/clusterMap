@@ -14,13 +14,7 @@ class ViewController: UIViewController {
         didSet {
             DispatchQueue.main.async {[weak self] in
                 self?.removeAnnocations()
-                self?.mapView.addAnnotations(self?.venues.map{$0.location} ?? [])
-                self?.venues.forEach { location in
-                    let annotation = MGLPointAnnotation()
-                    annotation.title = location.name
-                    annotation.coordinate = location.location.coordinate
-                    self?.mapView.addAnnotation(annotation)
-                }
+                self?.addAnnotations()
             }
         }
     }
@@ -61,6 +55,14 @@ class ViewController: UIViewController {
     private func removeAnnocations() {
         guard let annotations = mapView.annotations else {return}
         self.mapView.removeAnnotations(annotations)
-        
+    }
+    
+    private func addAnnotations() {
+        for venue in venues {
+            let annotation = MGLPointAnnotation()
+            annotation.title = venue.name
+            annotation.coordinate = venue.location.coordinate
+            mapView.addAnnotation(annotation)
+        }
     }
 }
