@@ -8,6 +8,10 @@
 import UIKit
 import Mapbox
 
+enum CastingError: Error {
+    case castingError(String)
+}
+
 class ViewController: UIViewController {
     
     var venues = [Venue]() {
@@ -24,18 +28,37 @@ class ViewController: UIViewController {
     
     lazy var mapView: MGLMapView = {
         guard let url = URL(string: "mapbox://styles/mapbox/streets-v11") else {print("bad url"); return MGLMapView()}
-        let map = MGLMapView(frame: view.bounds, styleURL: url)
+        let map = MGLMapView(frame: view.bounds, styleURL: MGLStyle.lightStyleURL)
         let initialLocation: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: lat, longitude: long)
         map.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         map.setCenter(initialLocation, zoomLevel: 9, animated: false)
+        map.tintColor = .darkGray
+        map.delegate = self
         return map
+    }()
+    
+    lazy var mapIcon: UIImage = {
+        let icon = UIImage()
+        return icon
+    }()
+    
+    lazy var popUp: UIView = {
+        let popUp = UIView()
+        return popUp
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         addMap()
         getVenues()
+        addDoubleTapRecognizer()
+        addSingleTapRecognizer()
     }
+    
+    
+    @objc private func handleDoubleTap(_ sender: UIGestureRecognizer) {}
+    
+    @objc private func handleSingleTap(_ sender: UIGestureRecognizer) {}
     
     private func addMap() {
         view.addSubview(mapView)
@@ -65,4 +88,37 @@ class ViewController: UIViewController {
             mapView.addAnnotation(annotation)
         }
     }
+    
+    private func addDoubleTapRecognizer() {
+        //Double-tap to zoom in
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(handleDoubleTap))
+        gesture.numberOfTapsRequired = 2
+        gesture.delegate = self
+        
+        guard let recognizers = mapView.gestureRecognizers else {return}
+        
+        for recognizer in recognizers where (recognizer as? UITapGestureRecognizer)?.numberOfTapsRequired == 2 {
+            recognizer.require(toFail: gesture)
+        }
+        
+        mapView.addGestureRecognizer(gesture)
+    }
+    private func addSingleTapRecognizer() {
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(handleSingleTap))
+        guard let recongnizers = mapView.gestureRecognizers else {return}
+        
+        for recognizer in recongnizers where recognizer is UITapGestureRecognizer {
+            gesture.require(toFail: recognizer)
+        }
+        
+        mapView.addGestureRecognizer(gesture)
+    }
+}
+
+extension ViewController: MGLMapViewDelegate {
+    
+}
+
+extension ViewController: UIGestureRecognizerDelegate {
+    
 }
