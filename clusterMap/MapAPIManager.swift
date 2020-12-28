@@ -32,7 +32,6 @@ struct MapAPIManager {
             
             do {
                 let result = try JSONDecoder().decode(VenueWrapper.self, from: data).response.venues
-                print(result)
                 completion(.success(result))
             } catch {
                 print(error)
